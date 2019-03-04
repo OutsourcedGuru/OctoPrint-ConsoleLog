@@ -1,0 +1,3 @@
+<a href="https://github.com/OutsourcedGuru/OctoPrint-ConsoleLog/MoreInformation.md" data-bind="visible: currentLogIssue(), popover: { placement: 'bottom', title: '{{ _('What does this mean?') }}', html: true, content: popoverContent, trigger: 'hover' }" style="display: none">
+    <span data-bind="visible: currentLogErrors(), css: {'consolelog_pulsate': currentLogErrors}" title="{{ _('JS Errors') }}"><span data-bind="text: getErrorCount"></span><i class="fa fa-exclamation"></i></span>
+</a>

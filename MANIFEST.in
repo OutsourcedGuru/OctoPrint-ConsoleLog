@@ -1,0 +1,4 @@
+include README.md
+recursive-include consolelog/templates *
+recursive-include consolelog/translations *
+recursive-include consolelog/static *
