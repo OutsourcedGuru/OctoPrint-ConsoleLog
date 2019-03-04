@@ -47,7 +47,7 @@ $(function() {
         var logArray =                      console.logArray();
 
         self.requestData = function() {
-            // console.error('Simulated Error');
+            //console.error('Simulated Error');
             self.currentLogErrors(logArray.errors.length != 0);
             self.currentLogIssue(logArray.errors.length != 0);
             self.getErrorCount(logArray.errors.length);
